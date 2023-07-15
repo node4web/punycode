@@ -98,4 +98,10 @@ npm search results. 😎
 [punycode.js v2.0.1]: https://github.com/mathiasbynens/punycode.js/blob/v2.0.1/punycode.js
 [punycode.js v2.0.1 readme]: https://github.com/mathiasbynens/punycode.js/tree/v2.0.1#api
 [node.js `node:punycode` docs]: https://nodejs.org/api/punycode.html
+[punycode.js]: https://github.com/mathiasbynens/punycode.js
+[yarn]: https://yarnpkg.com/
+[pnpm]: https://pnpm.io/
+[the new `npm:` specifier]: https://deno.land/manual/node/npm_specifiers
+[esm.sh]: https://esm.sh/
+[jsdelivr]: https://www.jsdelivr.com/esm
 <!-- prettier-ignore-end -->
