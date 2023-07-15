@@ -1,0 +1,16 @@
+{
+  "type": "commonjs",
+  "license": "MIT",
+  "repository": "github:nodefill/punycode",
+  "name": "@nodefill/punycode",
+  "version": "0.1.0",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "exports": "./index.js",
+  "dependencies": {
+    "@types/punycode": "2.1.0",
+    "punycode.js": "2.1.0"
+  }
+}

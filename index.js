@@ -9,7 +9,7 @@ exports.decode =
 
 console.warn(
   "The `punycode` module is deprecated. Please use a userland " +
-    "alternative instead.",
+    "alternative instead."
 );
 
 module.exports = require("punycode.js");
