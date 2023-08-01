@@ -23,7 +23,6 @@
       "node": "./src/index-node.js",
       "default": "./src/index-default.js"
     },
-    "./lib/*": null,
     "./*.js": "./src/*.js"
   },
   "files": [
