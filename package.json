@@ -1,6 +1,6 @@
 {
   "name": "@nodefill/punycode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "💔 Deprecated node:punycode module as an npm package",
   "keywords": [
     "punycode",
