@@ -9,12 +9,13 @@
 </div>
 
 🏃‍♀️ Uses the native `node:punycode` module when using Node.js \
-📋 Delegates to the [punycode.js v2.0.1] implementation everywhere else \
+📋 Uses [punycode.js v2.0.1] everywhere else \
 ⏳ Still prints the deprecation warning everywhere
 
 🛑 **The `node:punycode` module is deprecated in Node.js core.** Instead, it's
-recommended to use a user-land implementation like [punycode.js]. This package
-is provided solely for parity with `node:` APIs.
+recommended to use a user-land implementation like [punycode.js] (which this
+package is based on). This package is provided solely for parity with `node:`
+APIs.
 
 ## Installation
 
@@ -82,7 +83,7 @@ console.log(toUnicode("xn--wp8h"));
 Special thanks to [Mathias Bynens] for the [punycode.js v2.0.1] implementation!
 The code for the non-`node` targets is ripped straight from there (plus a
 warning message and explicit exports). As for types, you can thank TypeStrong
-and the DefinitelyTyped community for the `@types/node` definitions which,
+and the [DefinitelyTyped community] for the [`@types/node` definitions] which,
 again, are copy-pasted into the `index-types.d.ts` file.
 
 There's no tests and no TypeScript since this package is simple enough to not
@@ -104,4 +105,6 @@ npm search results. 😎
 [the new `npm:` specifier]: https://deno.land/manual/node/npm_specifiers
 [esm.sh]: https://esm.sh/
 [jsdelivr]: https://www.jsdelivr.com/esm
+[definitelytyped community]: https://github.com/DefinitelyTyped/DefinitelyTyped
+[`@types/node` definitions]: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node
 <!-- prettier-ignore-end -->
